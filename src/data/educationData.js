@@ -1,14 +1,14 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Revoor Padmanabha Chetty Matriculation Higher Secondary School',
+        institution: 'RPC Matriculation Higher Secondary School',
         course: 'Higher Secondary Education',
         startYear: '2004',
         endYear: '2019'
     },
     {
         id: 2,
-        institution: 'Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala Engineering College',
+        institution: 'Vel Tech Multi Tech College of Engineering',
         course: 'Bachelor of Engineering',
         startYear: '2019',
         endYear: '2023'
