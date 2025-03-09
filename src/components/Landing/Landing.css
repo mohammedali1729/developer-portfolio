@@ -1,5 +1,5 @@
 .landing {
-  height: 107vh;
+  height: 109vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,8 +43,9 @@
 }
 
 .landing--social {
-  font-size: 35px;
+  font-size: 45px;
   margin: 0 1rem;
+  margin-bottom: 15px;
   transition: transform 0.5s;
 }
 
