@@ -5,10 +5,10 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
+    // FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    FaYoutube,
+    // FaYoutube,
     FaBloggerB,
     FaRedditAlien,
     FaStackOverflow,
@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Your Name'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='Your@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -313,7 +313,7 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {/* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -322,7 +322,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -373,7 +373,7 @@ function Contacts() {
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
                             )}
-                            {socialsData.youtube && (
+                            {/* {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
                                     target='_blank'
@@ -382,7 +382,7 @@ function Contacts() {
                                 >
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.reddit && (
                                 <a
                                     href={socialsData.reddit}

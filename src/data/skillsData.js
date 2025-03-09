@@ -1,8 +1,10 @@
  export const skillsData = [
+    'Python',
+    'Mysql',
+    'PostgreSQL',
+    'MongoDB',
     'HTML',
-    'Fastify',
-    'Blender',
-    'Figma',
+    'odoo',
     'Javascript',
     'CSS',
     'React',
@@ -94,4 +96,5 @@
     Tensorflow
     Webex
     Wordpress
+    odoo
 */

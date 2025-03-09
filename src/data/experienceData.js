@@ -1,23 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Shiash Info Tech Solutions',
+        jobtitle: 'Intern',
+        startYear: '2022',
+        endYear: '2023'
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
+        company: 'RedRuby Technologies',
         jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
+        startYear: '2023',
+        endYear: '2024'
     },
-    {
-        id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
-    },
+    // {
+    //     id: 3,
+    //     company: 'Wonka Industries',
+    //     jobtitle: 'Marketing',
+    //     startYear: '2020',
+    //     endYear: 'Present'
+    // },
 ]

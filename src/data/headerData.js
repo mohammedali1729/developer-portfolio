@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/Mohammed-ali,BE(Mech)-2023 Full Stack Developer (2) (3) (1).pdf'
-import profileImage from '../assets/images/IMG_20250302_194812.png';// Import the image
+import profileImage from '../assets/images/j.jpg';// Import the image
 
 export const headerData = {
     name: 'Mohammed Ali',

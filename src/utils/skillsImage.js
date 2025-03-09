@@ -74,6 +74,7 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import odoo from '../assets/svg/skills/odoo1.png'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +228,8 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'odoo':
+            return odoo;
         default:
             break;
     }
